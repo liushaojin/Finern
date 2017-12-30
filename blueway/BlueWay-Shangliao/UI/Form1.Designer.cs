@@ -29,6 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.bluewaylogo = new System.Windows.Forms.PictureBox();
             this.quitBtn = new System.Windows.Forms.Button();
@@ -73,6 +74,10 @@
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine();
+            this.imageButton1 = new BlueWay_Shangliao.UI.MyControl.ImageButton();
+            this.alarmLed1 = new BlueWay_Shangliao.UI.MyControl.AlarmLed();
+            this.switchButton1 = new BlueWay_Shangliao.UI.MyControl.SwitchButton();
+            this.myButton1 = new BlueWay_Shangliao.UI.MyControl.MyButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bluewaylogo)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -101,7 +106,7 @@
             //
             // bluewaylogo
             //
-            this.bluewaylogo.BackgroundImage = global::BlueWay_Shangliao.Properties.Resources.blueWay_logo;
+            this.bluewaylogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bluewaylogo.BackgroundImage")));
             this.bluewaylogo.Location = new System.Drawing.Point(816, 10);
             this.bluewaylogo.Name = "bluewaylogo";
             this.bluewaylogo.Size = new System.Drawing.Size(177, 62);
@@ -110,13 +115,30 @@
             //
             // quitBtn
             //
+            this.quitBtn.BackColor = System.Drawing.Color.Transparent;
+            this.quitBtn.BackgroundImage = global::BlueWay_Shangliao.Properties.Resources.btn90_40;
+            this.quitBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.quitBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.quitBtn.FlatAppearance.BorderSize = 0;
+            this.quitBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.quitBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.quitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.quitBtn.Image = global::BlueWay_Shangliao.Properties.Resources.system_setting32;
+            this.quitBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.quitBtn.Location = new System.Drawing.Point(709, 22);
             this.quitBtn.Name = "quitBtn";
             this.quitBtn.Size = new System.Drawing.Size(90, 40);
             this.quitBtn.TabIndex = 7;
             this.quitBtn.Text = "退出系统";
-            this.quitBtn.UseVisualStyleBackColor = true;
+            this.quitBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.quitBtn.UseVisualStyleBackColor = false;
             this.quitBtn.Click += new System.EventHandler(this.quitBtn_Click);
+            this.quitBtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.quitBtn_KeyDown);
+            this.quitBtn.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.quitBtn_KeyPress);
+            this.quitBtn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.quitBtn_KeyUp);
+            this.quitBtn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.quitBtn_MouseDown);
+            this.quitBtn.MouseEnter += new System.EventHandler(this.quitBtn_MouseEnter);
+            this.quitBtn.MouseLeave += new System.EventHandler(this.quitBtn_MouseLeave);
             //
             // devMaintainHistoryBtn
             //
@@ -170,16 +192,22 @@
             //
             // selfCheckBtn
             //
+            this.selfCheckBtn.Image = global::BlueWay_Shangliao.Properties.Resources.system_setting32;
+            this.selfCheckBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.selfCheckBtn.Location = new System.Drawing.Point(109, 22);
             this.selfCheckBtn.Name = "selfCheckBtn";
             this.selfCheckBtn.Size = new System.Drawing.Size(90, 40);
             this.selfCheckBtn.TabIndex = 1;
             this.selfCheckBtn.Text = "自检模式";
+            this.selfCheckBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.selfCheckBtn.UseVisualStyleBackColor = true;
             this.selfCheckBtn.Click += new System.EventHandler(this.selfCheckBtn_Click);
             //
             // systemSetBtn
             //
+            this.systemSetBtn.BackgroundImage = global::BlueWay_Shangliao.Properties.Resources.button640_128;
+            this.systemSetBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.systemSetBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.systemSetBtn.Location = new System.Drawing.Point(9, 22);
             this.systemSetBtn.Name = "systemSetBtn";
             this.systemSetBtn.Size = new System.Drawing.Size(90, 40);
@@ -199,6 +227,10 @@
             //
             // groupBox2
             //
+            this.groupBox2.Controls.Add(this.imageButton1);
+            this.groupBox2.Controls.Add(this.alarmLed1);
+            this.groupBox2.Controls.Add(this.switchButton1);
+            this.groupBox2.Controls.Add(this.myButton1);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
@@ -519,6 +551,67 @@
             this.skinEngine1.SerialNumber = "";
             this.skinEngine1.SkinFile = null;
             //
+            // imageButton1
+            //
+            this.imageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.imageButton1.BackColorLeave = System.Drawing.Color.Transparent;
+            this.imageButton1.BackColorM = System.Drawing.Color.Transparent;
+            this.imageButton1.BackColorMove = System.Drawing.Color.Transparent;
+            this.imageButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imageButton1.FontM = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.imageButton1.ImageDefault = null;
+            this.imageButton1.ImageEnter = null;
+            this.imageButton1.ImageIcon = global::BlueWay_Shangliao.Properties.Resources.system_setting;
+            this.imageButton1.ImageLeave = null;
+            this.imageButton1.ImagePress = null;
+            this.imageButton1.Location = new System.Drawing.Point(104, 211);
+            this.imageButton1.Name = "imageButton1";
+            this.imageButton1.Size = new System.Drawing.Size(100, 37);
+            this.imageButton1.TabIndex = 8;
+            this.imageButton1.TextColor = System.Drawing.Color.Black;
+            this.imageButton1.TextM = "";
+            //
+            // alarmLed1
+            //
+            this.alarmLed1.Location = new System.Drawing.Point(90, 255);
+            this.alarmLed1.MLevel = BlueWay_Shangliao.UI.MyControl.AlarmLevel.Level1;
+            this.alarmLed1.Name = "alarmLed1";
+            this.alarmLed1.Size = new System.Drawing.Size(100, 100);
+            this.alarmLed1.TabIndex = 7;
+            this.alarmLed1.TimerInterval = 1000;
+            //
+            // switchButton1
+            //
+            this.switchButton1.BackColor = System.Drawing.Color.Transparent;
+            this.switchButton1.BackgroundImage = global::BlueWay_Shangliao.Properties.Resources.switch_manual;
+            this.switchButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.switchButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.switchButton1.IsCheck = false;
+            this.switchButton1.Location = new System.Drawing.Point(8, 255);
+            this.switchButton1.Margin = new System.Windows.Forms.Padding(1);
+            this.switchButton1.MStyle = BlueWay_Shangliao.UI.MyControl.SwitchButton.SwitchStyle.Style002;
+            this.switchButton1.Name = "switchButton1";
+            this.switchButton1.Size = new System.Drawing.Size(65, 94);
+            this.switchButton1.TabIndex = 6;
+            this.switchButton1.Click += new System.EventHandler(this.switchButton1_Click);
+            //
+            // myButton1
+            //
+            this.myButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("myButton1.BackgroundImage")));
+            this.myButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton1.FlatAppearance.BorderSize = 0;
+            this.myButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.myButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton1.Location = new System.Drawing.Point(8, 225);
+            this.myButton1.Name = "myButton1";
+            this.myButton1.Size = new System.Drawing.Size(75, 23);
+            this.myButton1.TabIndex = 5;
+            this.myButton1.Text = "myButton1";
+            this.myButton1.UseVisualStyleBackColor = true;
+            this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
+            //
             // Form1
             //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -592,6 +685,10 @@
         private System.Windows.Forms.Button controlModeBtn;
         private System.Windows.Forms.GroupBox groupBox6;
         private Sunisoft.IrisSkin.SkinEngine skinEngine1;
+        private UI.MyControl.MyButton myButton1;
+        private UI.MyControl.SwitchButton switchButton1;
+        private UI.MyControl.AlarmLed alarmLed1;
+        private UI.MyControl.ImageButton imageButton1;
     }
 }
 

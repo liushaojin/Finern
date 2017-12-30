@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -37,6 +37,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -69,6 +70,7 @@
     <Compile Include="Comm\MyTcpClient.cs" />
     <Compile Include="Comm\MyTcpServer.cs" />
     <Compile Include="Comm\UdpComm.cs" />
+    <Compile Include="Data\MyData.cs" />
     <Compile Include="Data\Product.cs" />
     <Compile Include="FileOpAPI\IniFileHelper.cs" />
     <Compile Include="Tool\ScreenSelfAdaption.cs" />
@@ -80,6 +82,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\DataEndian.cs" />
+    <Compile Include="UI\MyControl\AlarmLed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\MyControl\AlarmLed.Designer.cs">
+      <DependentUpon>AlarmLed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MyControl\ImageButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\MyControl\ImageButton.Designer.cs">
+      <DependentUpon>ImageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MyControl\MyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\MyControl\NumTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\MyControl\SwitchButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <EmbeddedResource Include="UI\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +117,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UI\MyControl\ImageButton.resx">
+      <DependentUpon>ImageButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MyControl\MyButton.resx">
+      <DependentUpon>MyButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MyControl\SwitchButton.resx">
+      <DependentUpon>SwitchButton.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -123,6 +156,90 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn100_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_enter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_focus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_leave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btn90_40_release.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\switch_auto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\switch_manual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\switch_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\switch_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\alarm_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\alarm_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\alarm_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\alarm_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\alarm_orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\alarm_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\blueWay_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\alarm_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\system_setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\power_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\power_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\button640_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\system_setting32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

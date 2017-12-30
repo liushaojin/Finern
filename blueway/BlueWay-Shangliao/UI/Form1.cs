@@ -12,6 +12,7 @@ namespace BlueWay_Shangliao
 {
     using BlueWay_Shangliao.Tool;
     using BlueWay_Shangliao.Comm;
+    
     /// <summary>
     /// 控制模式枚举
     /// </summary>
@@ -27,10 +28,6 @@ namespace BlueWay_Shangliao
         ControlMode mCtrlMode = ControlMode.AutoMode;    //初始化控制模式为自动模式
         UdpComm udp;
         
-        private void ReceiveUdpData(object sender, ReceiveDataEventArgs e)
-        {
-            string dat = e.recData;
-        }
         public Form1()
         {
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -39,10 +36,10 @@ namespace BlueWay_Shangliao
         //为窗体添加Load事件，并在其方法Form1_Load中，调用类的初始化方法，记录窗体和其控件的初始位置和大小
         private void Form1_Load(object sender, EventArgs e)
         {
-            mssa.ControlInitSize(this);
-            skinEngine1.SkinFile = System.Environment.CurrentDirectory + "\\Skins\\CalmnessColor1.ssk";
-            //skinEngine1.DisableTag = 9999;      //设置不需要被渲染的控件Tag值为9999
-            InitUdp();//udp测试
+            mssa.ControlInitSize(this); //比例最大化的初始化
+            //skinEngine1.SkinFile = System.Environment.CurrentDirectory + "\\Skins\\CalmnessColor1.ssk"; //设置皮肤
+            //skinEngine1.DisableTag = 9999;    //设置不需要被渲染的控件的Tag值为9999
+            InitUdp();  //udp测试
         }
         
         private void InitUdp()
@@ -50,6 +47,10 @@ namespace BlueWay_Shangliao
             udp = new UdpComm();
             udp.onReceiveData += new EventHandler<ReceiveDataEventArgs>(ReceiveUdpData);
             udp.StartListen();
+        }
+        private void ReceiveUdpData(object sender, ReceiveDataEventArgs e)
+        {
+            string dat = e.recData;
         }
         
         //为窗体添加SizeChanged事件，并在其方法Form1_SizeChanged中，调用类的自适应方法，完成自适应
@@ -126,6 +127,45 @@ namespace BlueWay_Shangliao
             {
                 e.Cancel = true;
             }
+        }
+        
+        
+        
+        private void quitBtn_KeyPress(object sender, KeyPressEventArgs e)
+        {
+        }
+        
+        private void quitBtn_KeyDown(object sender, KeyEventArgs e)
+        {
+        }
+        
+        private void quitBtn_KeyUp(object sender, KeyEventArgs e)
+        {
+        }
+        string startupPath = Application.StartupPath;
+        private void quitBtn_MouseEnter(object sender, EventArgs e)
+        {
+            quitBtn.BackgroundImage = Image.FromFile("image\\btn90_40_active.png");
+        }
+        
+        private void quitBtn_MouseLeave(object sender, EventArgs e)
+        {
+            quitBtn.BackgroundImage = Image.FromFile("image\\btn90_40.png");
+        }
+        
+        private void quitBtn_MouseDown(object sender, MouseEventArgs e)
+        {
+            quitBtn.BackgroundImage = Image.FromFile("image\\btn90_40_down.png");
+        }
+        
+        private void myButton1_Click(object sender, EventArgs e)
+        {
+        }
+        
+        private void switchButton1_Click(object sender, EventArgs e)
+        {
+            bool res = false;
+            res = switchButton1.IsCheck;
         }
     }
 }

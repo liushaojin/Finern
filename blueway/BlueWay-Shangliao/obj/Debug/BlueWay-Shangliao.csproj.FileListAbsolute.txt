@@ -8,11 +8,13 @@ d:\我的文档\visual studio 2015\Projects\BlueWay-Shangliao\BlueWay-Shangliao\
 d:\我的文档\visual studio 2015\Projects\BlueWay-Shangliao\BlueWay-Shangliao\obj\Debug\BlueWay-Shangliao.exe
 d:\我的文档\visual studio 2015\Projects\BlueWay-Shangliao\BlueWay-Shangliao\obj\Debug\BlueWay-Shangliao.pdb
 D:\SVN\blueway\BlueWay-Shangliao\bin\Debug\BlueWay-Shangliao.exe.config
-D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay-Shangliao.exe
-D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay-Shangliao.pdb
 D:\SVN\blueway\BlueWay-Shangliao\bin\Debug\BlueWay-Shangliao.exe
 D:\SVN\blueway\BlueWay-Shangliao\bin\Debug\BlueWay-Shangliao.pdb
-D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay-Shangliao.csprojResolveAssemblyReference.cache
 D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay_Shangliao.Form1.resources
 D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay_Shangliao.Properties.Resources.resources
+D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay_Shangliao.UI.MyControl.SwitchButton.resources
 D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay-Shangliao.csproj.GenerateResource.Cache
+D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay-Shangliao.exe
+D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay-Shangliao.pdb
+D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay_Shangliao.UI.MyControl.MyButton.resources
+D:\SVN\blueway\BlueWay-Shangliao\obj\Debug\BlueWay_Shangliao.UI.MyControl.ImageButton.resources
