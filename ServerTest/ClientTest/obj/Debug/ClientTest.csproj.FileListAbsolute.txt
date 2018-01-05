@@ -1,0 +1,12 @@
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\bin\Debug\ClientTest.exe.config
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\bin\Debug\ClientTest.exe
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\bin\Debug\ClientTest.pdb
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\obj\Debug\ClientTest.Form1.resources
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\obj\Debug\ClientTest.Properties.Resources.resources
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\obj\Debug\ClientTest.exe
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\obj\Debug\ClientTest.pdb
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\bin\Debug\ClientApp\ClientTest.exe.config
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\bin\Debug\ClientApp\ClientTest.exe
+d:\我的文档\visual studio 2015\Projects\ServerTest\ClientTest\bin\Debug\ClientApp\ClientTest.pdb

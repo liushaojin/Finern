@@ -1,0 +1,9 @@
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\bin\Debug\ServerTest.exe.config
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\bin\Debug\ServerTest.exe
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\bin\Debug\ServerTest.pdb
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\obj\Debug\ServerTest.csprojResolveAssemblyReference.cache
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\obj\Debug\ServerTest.Form1.resources
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\obj\Debug\ServerTest.Properties.Resources.resources
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\obj\Debug\ServerTest.csproj.GenerateResource.Cache
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\obj\Debug\ServerTest.exe
+d:\我的文档\visual studio 2015\Projects\ServerTest\ServerTest\obj\Debug\ServerTest.pdb
