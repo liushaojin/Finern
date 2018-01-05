@@ -1,0 +1,161 @@
+﻿namespace BlueWay_Shangliao
+{
+    partial class LoginDlg
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+        
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if(disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            
+            base.Dispose(disposing);
+        }
+        
+        #region Windows Form Designer generated code
+        
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cancelBtn = new System.Windows.Forms.Button();
+            this.loginBtn = new System.Windows.Forms.Button();
+            this.userTb = new System.Windows.Forms.TextBox();
+            this.userPb = new System.Windows.Forms.PictureBox();
+            this.passTb = new System.Windows.Forms.TextBox();
+            this.passPb = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.userPb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passPb)).BeginInit();
+            this.SuspendLayout();
+            //
+            // label1
+            //
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.Color.LimeGreen;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(464, 40);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "蓝微中控系统登入";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
+            // label2
+            //
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.ForeColor = System.Drawing.Color.LimeGreen;
+            this.label2.Location = new System.Drawing.Point(31, 257);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(403, 23);
+            this.label2.TabIndex = 15;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
+            // cancelBtn
+            //
+            this.cancelBtn.Location = new System.Drawing.Point(97, 228);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(75, 23);
+            this.cancelBtn.TabIndex = 13;
+            this.cancelBtn.Text = "取消";
+            this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            //
+            // loginBtn
+            //
+            this.loginBtn.Location = new System.Drawing.Point(286, 228);
+            this.loginBtn.Name = "loginBtn";
+            this.loginBtn.Size = new System.Drawing.Size(75, 23);
+            this.loginBtn.TabIndex = 14;
+            this.loginBtn.Text = "登入";
+            this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
+            //
+            // userTb
+            //
+            this.userTb.Location = new System.Drawing.Point(158, 113);
+            this.userTb.MinimumSize = new System.Drawing.Size(170, 40);
+            this.userTb.Name = "userTb";
+            this.userTb.Size = new System.Drawing.Size(203, 21);
+            this.userTb.TabIndex = 10;
+            //
+            // userPb
+            //
+            this.userPb.BackgroundImage = global::BlueWay_Shangliao.Properties.Resources.userIcon;
+            this.userPb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.userPb.Location = new System.Drawing.Point(97, 98);
+            this.userPb.Name = "userPb";
+            this.userPb.Size = new System.Drawing.Size(55, 50);
+            this.userPb.TabIndex = 9;
+            this.userPb.TabStop = false;
+            //
+            // passTb
+            //
+            this.passTb.Location = new System.Drawing.Point(158, 172);
+            this.passTb.MinimumSize = new System.Drawing.Size(170, 40);
+            this.passTb.Name = "passTb";
+            this.passTb.PasswordChar = '*';
+            this.passTb.Size = new System.Drawing.Size(203, 21);
+            this.passTb.TabIndex = 12;
+            //
+            // passPb
+            //
+            this.passPb.BackgroundImage = global::BlueWay_Shangliao.Properties.Resources.passIcon;
+            this.passPb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.passPb.Location = new System.Drawing.Point(97, 157);
+            this.passPb.Name = "passPb";
+            this.passPb.Size = new System.Drawing.Size(55, 50);
+            this.passPb.TabIndex = 11;
+            this.passPb.TabStop = false;
+            //
+            // LoginDlg
+            //
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::BlueWay_Shangliao.Properties.Resources.Login_bg;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(464, 282);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cancelBtn);
+            this.Controls.Add(this.loginBtn);
+            this.Controls.Add(this.userTb);
+            this.Controls.Add(this.userPb);
+            this.Controls.Add(this.passTb);
+            this.Controls.Add(this.passPb);
+            this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
+            this.Name = "LoginDlg";
+            this.Text = "登入窗口";
+            this.Load += new System.EventHandler(this.LoginDlg_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.userPb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passPb)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+        
+        #endregion
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button cancelBtn;
+        private System.Windows.Forms.Button loginBtn;
+        private System.Windows.Forms.TextBox userTb;
+        private System.Windows.Forms.PictureBox userPb;
+        private System.Windows.Forms.TextBox passTb;
+        private System.Windows.Forms.PictureBox passPb;
+    }
+}
