@@ -151,6 +151,9 @@
     <Compile Include="UI\MyControl\MyButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UI\MyControl\MyTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UI\MyControl\NumTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -368,6 +371,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\image\userIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\naviBtn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

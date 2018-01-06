@@ -72,7 +72,7 @@
             this.Controls.Add(this.listBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DevOperate";
-            this.Text = "DevOperate";
+            this.Text = "设备操作";
             this.ResumeLayout(false);
             this.PerformLayout();
         }
