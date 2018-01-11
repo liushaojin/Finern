@@ -1,0 +1,10 @@
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\bin\Debug\BLL.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\bin\Debug\BLL.pdb
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\bin\Debug\DAL.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\bin\Debug\Model.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\bin\Debug\MySql.Data.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\bin\Debug\DAL.pdb
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\bin\Debug\Model.pdb
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\obj\Debug\BLL.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\BLL\obj\Debug\BLL.pdb

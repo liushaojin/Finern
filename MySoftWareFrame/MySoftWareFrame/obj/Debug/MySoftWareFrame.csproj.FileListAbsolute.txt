@@ -1,0 +1,16 @@
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\MySoftWareFrame.exe.config
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\MySoftWareFrame.exe
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\MySoftWareFrame.pdb
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\obj\Debug\MySoftWareFrame.csprojResolveAssemblyReference.cache
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\obj\Debug\MySoftWareFrame.Properties.Resources.resources
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\obj\Debug\MySoftWareFrame.csproj.GenerateResource.Cache
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\obj\Debug\MySoftWareFrame.exe
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\obj\Debug\MySoftWareFrame.pdb
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\obj\Debug\MySoftWareFrame.Form1.resources
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\BLL.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\Model.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\DAL.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\MySql.Data.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\BLL.pdb
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\Model.pdb
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\MySoftWareFrame\bin\Debug\DAL.pdb

@@ -1,0 +1,5 @@
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\Model\bin\Debug\Model.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\Model\bin\Debug\Model.pdb
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\Model\obj\Debug\Model.dll
+d:\我的文档\visual studio 2015\Projects\MySoftWareFrame\Model\obj\Debug\Model.pdb
