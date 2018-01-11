@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DC89C2A-DF93-4770-BF28-D8B54EDA35B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StatTemplate</RootNamespace>
+    <AssemblyName>StatTemplate</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Folder_System_Flat_Round_128px_1121118_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>using\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>using\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\GlobalDataHelper.cs" />
+    <Compile Include="Helper\InstanceHelper.cs" />
+    <Compile Include="Helper\LogHelper.cs" />
+    <Compile Include="Helper\PLCDEvMitsubishi.cs" />
+    <Compile Include="Helper\SQLiteHelper.cs" />
+    <Compile Include="Helper\MySqlCommon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunStatus.cs" />
+    <Compile Include="TableStruct.cs" />
+    <Compile Include="ucConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucConfiguration.Designer.cs">
+      <DependentUpon>ucConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucEqCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucEqCheck.Designer.cs">
+      <DependentUpon>ucEqCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucEqOperation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucEqOperation.Designer.cs">
+      <DependentUpon>ucEqOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucHelp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHelp.Designer.cs">
+      <DependentUpon>ucHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaintenanceBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMaintenanceBook.Designer.cs">
+      <DependentUpon>ucMaintenanceBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMonitor.Designer.cs">
+      <DependentUpon>ucMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSOP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSOP.Designer.cs">
+      <DependentUpon>ucSOP.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucConfiguration.resx">
+      <DependentUpon>ucConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucEqCheck.resx">
+      <DependentUpon>ucEqCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucEqOperation.resx">
+      <DependentUpon>ucEqOperation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHelp.resx">
+      <DependentUpon>ucHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMaintenanceBook.resx">
+      <DependentUpon>ucMaintenanceBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMonitor.resx">
+      <DependentUpon>ucMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSOP.resx">
+      <DependentUpon>ucSOP.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\intelligent_auto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\Folder_System_Flat_Round_128px_1121118_easyicon.net.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Folder_System_Flat_Round_128px_1121118_easyicon.net.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

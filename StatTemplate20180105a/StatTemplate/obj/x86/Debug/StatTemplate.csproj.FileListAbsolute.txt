@@ -1,0 +1,73 @@
+d:\用户目录\我的文档\visual studio 2010\Projects\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.FrmLogin.resources
+d:\用户目录\我的文档\visual studio 2010\Projects\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.Properties.Resources.resources
+d:\用户目录\我的文档\visual studio 2010\Projects\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.csproj.GenerateResource.Cache
+d:\用户目录\我的文档\visual studio 2010\Projects\StatTemplate\StatTemplate\bin\Debug\StatTemplate.exe
+d:\用户目录\我的文档\visual studio 2010\Projects\StatTemplate\StatTemplate\bin\Debug\StatTemplate.pdb
+d:\用户目录\我的文档\visual studio 2010\Projects\StatTemplate\StatTemplate\bin\Debug\System.Data.SQLite.dll
+d:\用户目录\我的文档\visual studio 2010\Projects\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.exe
+d:\用户目录\我的文档\visual studio 2010\Projects\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.pdb
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.exe
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.pdb
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\bin\Debug\StatTemplate.exe
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\bin\Debug\StatTemplate.pdb
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\bin\Debug\System.Data.SQLite.dll
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.csprojResolveAssemblyReference.cache
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.FrmLogin.resources
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.Properties.Resources.resources
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.csproj.GenerateResource.Cache
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.FrmMain.resources
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.ucConfiguration.resources
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.ucEqCheck.resources
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.ucHelp.resources
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.ucMaintenanceBook.resources
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.ucMonitor.resources
+E:\Program\DotNet\德赛电池\StatTemplate\StatTemplate\obj\x86\Debug\StatTemplate.ucSOP.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.exe
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.pdb
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\bin\Debug\StatTemplate.exe
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\bin\Debug\StatTemplate.pdb
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\bin\Debug\System.Data.SQLite.dll
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.csprojResolveAssemblyReference.cache
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.FrmLogin.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.FrmMain.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.Properties.Resources.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucConfiguration.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucEqCheck.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucHelp.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucMaintenanceBook.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucMonitor.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucSOP.resources
+E:\Program\DotNet\德赛电池\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.csproj.GenerateResource.Cache
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\bin\Debug\StatTemplate.exe
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\bin\Debug\StatTemplate.pdb
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\bin\Debug\System.Data.SQLite.dll
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.FrmLogin.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.FrmMain.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.Properties.Resources.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucConfiguration.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucEqCheck.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucEqOperation.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucHelp.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucMaintenanceBook.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucMonitor.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.ucSOP.resources
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.csproj.GenerateResource.Cache
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.exe
+E:\Program\DotNet\德赛蓝微\StatTemplate20171205a\StatTemplate\obj\x86\Debug\StatTemplate.pdb
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.exe
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.pdb
+D:\SVN\StatTemplate20180105a\StatTemplate\bin\Debug\StatTemplate.exe
+D:\SVN\StatTemplate20180105a\StatTemplate\bin\Debug\StatTemplate.pdb
+D:\SVN\StatTemplate20180105a\StatTemplate\bin\Debug\System.Data.SQLite.dll
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.csprojResolveAssemblyReference.cache
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.FrmLogin.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.FrmMain.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.Properties.Resources.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.ucConfiguration.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.ucEqCheck.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.ucEqOperation.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.ucHelp.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.ucMaintenanceBook.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.ucMonitor.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.ucSOP.resources
+D:\SVN\StatTemplate20180105a\StatTemplate\obj\x86\Debug\StatTemplate.csproj.GenerateResource.Cache
