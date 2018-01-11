@@ -27,6 +27,28 @@ namespace MySoftWareFrame
             {
                 userInfo.Username = userTb.Text.Trim();
                 userInfo.Password = passTb.Text.Trim();
+                userInfo.Permision = int.Parse(permisionTb.Text.Trim());
+            };
+            string messageStr = null;
+            
+            if(lm.Add(userInfo, out messageStr))
+            {
+                MessageBox.Show("添加成功");
+            }
+            else
+            {
+                MessageBox.Show(messageStr);
+                userTb.Focus();
+            }
+        }
+        
+        private void addCountBtn_Click(object sender, EventArgs e)
+        {
+            userInfo = new UserInfo();
+            {
+                userInfo.Username = accountTb.Text.Trim();
+                userInfo.Password = passKeyTb.Text.Trim();
+                userInfo.Permision = int.Parse(permisionTb.Text.Trim());
             };
             string messageStr = null;
             

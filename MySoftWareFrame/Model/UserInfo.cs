@@ -10,6 +10,7 @@ namespace Model
     {
         private string username = null;
         private string password = null;
+        private int permision = 0;
         public string Username
         {
             get
@@ -31,6 +32,18 @@ namespace Model
             set
             {
                 password = value;
+            }
+        }
+        
+        public int Permision
+        {
+            get
+            {
+                return permision;
+            }
+            set
+            {
+                permision = value;
             }
         }
     }

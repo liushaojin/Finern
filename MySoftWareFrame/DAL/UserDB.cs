@@ -59,11 +59,12 @@ namespace DAL
         public int AddUser(UserInfo userInfo)
         {
             //对数据库进添加一个用户操作
-            string commandText = "insert into UserInfo(userName, passWord) values(?userName, ?passWord)";
+            string commandText = "insert into UserInfo(userName, passWord, permision) values(?userName, ?passWord, ?permision)";
             MySqlParameter[] paras = new MySqlParameter[]
             {
                 new MySqlParameter("?userName", userInfo.Username),
-                new MySqlParameter("?passWord", userInfo.Password)
+                new MySqlParameter("?passWord", userInfo.Password),
+                new MySqlParameter("?permision", userInfo.Permision)
             };
             return MysqlHelper.ExecuteNonQuery(connectStr, CommandType.Text, commandText, paras);
         }
